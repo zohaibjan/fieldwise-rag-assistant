@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "fieldwise-rag-assistant"
+version = "0.1.0"
+description = "Local engineering-document retrieval with citations and optional OpenAI answers"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "pydantic>=2.10,<3"]
+[project.optional-dependencies]
+pdf = ["PyMuPDF>=1.24,<2"]
+test = ["pytest>=8,<10", "httpx>=0.27,<1"]
+[project.scripts]
+fieldwise = "fieldwise.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+fieldwise = ["static/*"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

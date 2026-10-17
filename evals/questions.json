@@ -1,0 +1,10 @@
+[
+  {"question":"What does the Pump Alpha amber indicator mean?","expected_document":"pump-alpha.md"},
+  {"question":"What is the Pump Alpha strainer inspection interval?","expected_document":"pump-alpha.md"},
+  {"question":"Which Conveyor Beta ticket records a blue sensor alignment check?","expected_document":"conveyor-beta.md"},
+  {"question":"What is the Conveyor Beta document revision?","expected_document":"conveyor-beta.md"},
+  {"question":"What happens to searchable chunks for a superseded manual?","expected_document":"document-control.md"},
+  {"question":"How can a reviewer identify the exact indexed text version?","expected_document":"document-control.md"},
+  {"question":"How many moons orbit Jupiter?","expected_document":null},
+  {"question":"What is the capital city of Argentina?","expected_document":null}
+]
