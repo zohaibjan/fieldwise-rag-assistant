@@ -74,3 +74,7 @@ See [architecture](docs/architecture.md) and [security/deployment scope](SECURIT
 - [SQLite FTS5 / BM25](https://www.sqlite.org/fts5.html)
 - [OpenAI text generation](https://developers.openai.com/api/docs/guides/text)
 - [FastAPI](https://fastapi.tiangolo.com/)
+
+## Automated checks
+
+GitHub Actions runs offline regression checks on pushes and pull requests. These do not deploy the app, call paid AI services or establish model quality. 
