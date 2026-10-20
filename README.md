@@ -2,7 +2,7 @@
 
 A fresh public reference implementation of a cited engineering-document assistant. It ingests documents, versions their contents, retrieves relevant passages and provides either local extractive answers or optional OpenAI-generated responses.
 
-**Provenance:** independently recreated in October 2026, inspired by the high-level [Beyond Human FieldWise case study](https://beyondhuman.dev/case-study/fieldwise/). This repository is newly written demonstration code, not that deployment's source. All bundled documents are fictional. The case study's page count and business outcome figures are not benchmark claims for this implementation.
+**Provenance:** independently recreated in October 2026, based on a high-level FieldWise document-retrieval concept. This repository is newly written demonstration code, not that deployment's source. All bundled documents are fictional. Historical page counts and business outcomes are not benchmark claims for this implementation.
 
 ## Run locally without a key
 
